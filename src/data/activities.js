@@ -1,0 +1,93 @@
+export const initialActivities = [
+  {
+    id: "act-1",
+    productId: 1,
+    productName: "Krypton AI",
+    productSlug: "krypton-ai",
+    type: "OUTBID",
+    title: "Krypton AI reclaimed Rank #1",
+    message: "Outbid HyperPulse with a new record high bid of ₹14,500.",
+    amount: 14500,
+    prevRank: 2,
+    newRank: 1,
+    timestamp: "2026-09-20T18:14:00Z"
+  },
+  {
+    id: "act-2",
+    productId: 2,
+    productName: "HyperPulse",
+    productSlug: "hyperpulse",
+    type: "BID_INCREASE",
+    title: "HyperPulse raised stake",
+    message: "Bumped stake by +₹2,800 to defend top spot.",
+    amount: 11800,
+    prevRank: 2,
+    newRank: 2,
+    timestamp: "2026-09-20T16:20:00Z"
+  },
+  {
+    id: "act-3",
+    productId: 3,
+    productName: "Veloct Design",
+    productSlug: "veloct-design",
+    type: "OUTBID",
+    title: "Veloct Design took Rank #3",
+    message: "Overturned OmniFlow with a ₹9,900 bid.",
+    amount: 9900,
+    prevRank: 4,
+    newRank: 3,
+    timestamp: "2026-09-20T14:05:00Z"
+  },
+  {
+    id: "act-4",
+    productId: 5,
+    productName: "LedgerZen",
+    productSlug: "ledgerzen",
+    type: "NEW_SUBMISSION",
+    title: "LedgerZen entered the arena",
+    message: "Debuted directly into Rank #5 with an aggressive ₹6,200 bid.",
+    amount: 6200,
+    prevRank: null,
+    newRank: 5,
+    timestamp: "2026-09-19T21:30:00Z"
+  },
+  {
+    id: "act-5",
+    productId: 6,
+    productName: "SignalForge",
+    productSlug: "signalforge",
+    type: "BID_INCREASE",
+    title: "SignalForge escalated bid",
+    message: "Increased bid to ₹5,000, pushing into the Top 10.",
+    amount: 5000,
+    prevRank: 8,
+    newRank: 6,
+    timestamp: "2026-09-19T19:40:00Z"
+  },
+  {
+    id: "act-6",
+    productId: 7,
+    productName: "ZeroVault",
+    productSlug: "zerovault",
+    type: "RANK_CHANGE",
+    title: "ZeroVault moved to #7",
+    message: "Maintained steady position with ₹4,200 staked.",
+    amount: 4200,
+    prevRank: 9,
+    newRank: 7,
+    timestamp: "2026-09-19T14:10:00Z"
+  },
+  {
+    id: "act-7",
+    productId: 16,
+    productName: "NudgePulse",
+    productSlug: "nudgepulse",
+    type: "NEW_SUBMISSION",
+    title: "NudgePulse launched",
+    message: "Joined the board with an initial stake of ₹200.",
+    amount: 200,
+    prevRank: null,
+    newRank: 16,
+    timestamp: "2026-09-19T09:30:00Z"
+  }
+];
